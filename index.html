@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Todo App</title>
+		<link rel="stylesheet" href="app.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+  <body onload="base_load()">
+	<header>
+		
+			<h1 class="head">TODO APPLICTION</h1>
+			<span class="glyphicon glyphicon-plus add_" onclick="add_todo()"></span>
+		
+		
+	</header>
+      
+	<hr>
+      <div>
+			<h2 id="todoChange"> Add Todo <h2>
+			<hr>
+		 </div>
+		  <div id="data_">
+			 <input type="text" name="name" id="name_"  placeholder="Name" />
+			 <br />
+			 <br />
+			 <input type="text" name="description" id="desc_" placeholder="Description" />
+			 <br />
+			 <br />
+			 <input type="checkbox">DONE
+		 </div>
+		 <br />
+			 <br />	
+		 <div id="data_">	
+			<input type="button" value="ADD" onclick="addData()"/>
+		 </div>
+	   <div id="demo">
+      </div>
+	
+	
+  </body>
+  <script src="app.js"></script>
+</html>
